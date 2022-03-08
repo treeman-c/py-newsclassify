@@ -32,7 +32,6 @@ def GetText(purl):
     resp.encoding = 'utf-8'  # 设置解析编码
     # xpath
     tree = et.HTML(resp.text)
-    # content_list = tree.xpath('//div[@id=\"post_main\"]/text()')[0]
     html = tree.xpath(
         '//div[@class=\"main\"]/div[@class=\"sidebar\"]/h2/div[@class=\"viewport\"]/div[@class=\"overview\"]//text()')
     if not html:
@@ -46,13 +45,8 @@ def GetText(purl):
             str += el
     html = str
     del str
-    # 正则
-    delOrther = re.compile(r'[\s]*', re.I)  # 去除空格回车制表符等其他字符
-    html = delOrther.sub('', html)
     if html == '':
         return None
-    delOrther = re.compile(r"[^a-zA-Z0-9\u4E00-\u9FA5]")
-    html = delOrther.sub('', html)  # 去除非汉字字母数字的符号
     return html
 
 
@@ -84,18 +78,17 @@ def Geturl(purl):
 
 
 # 获取文本关键字
-def GetKey(text=None):
+def Getpaper(text):
+    # 正则
+    delOrther = re.compile(r'[\s]*', re.I)  # 去除空格回车制表符等其他字符
+    text = delOrther.sub('', text)
+    if text == '':
+        return None
+    delOrther = re.compile(r"[^a-zA-Z0-9\u4E00-\u9FA5]")
+    text = delOrther.sub('', text)  # 去除非汉字字母数字的符号
     if text is None:
         return None
-    text = DelStopword(text)  # 删除停用词
-    keylist = jieba.cut(text, False)  # true为全模式，false为精确模式，默认为全模式，jieba.cut_for_search(text)为搜索引擎模式
-    # keylist = jieba.analyse.extract_tags(text, 30, True, allowPOS=())
-    # for item in keylist:
-    #     # 分别为关键词和相应的权重
-    #     print(item[0], item[1])
-    lists = list(keylist)
-    print(lists)
-    return lists
+    return text
 
 
 # 获取停用词文本
@@ -137,6 +130,8 @@ def Transfrom(lists):
         urls = lists[categ]
         for url in urls:
             temp = GetText(url)
+            if temp:
+                temp = Getpaper(temp)
             if temp is not None:
                 label.append(categ)
                 text.append(temp)
