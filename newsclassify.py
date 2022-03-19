@@ -2,7 +2,6 @@ import tkinter as tk
 import NewsSpider as ns
 import TrainText as tt
 
-
 #####################################
 
 
@@ -138,10 +137,10 @@ l_rstx.place(x=120, y=350, anchor='nw')
 
 b_url_svm = tk.Button(win, text='URL_svm_分类', width=15, height=1, command=url_svm_m1)
 b_url_svm.place(x=20, y=150, anchor='nw')
-b_text_svm = tk.Button(win, text='URL_svm_分类', width=15, height=1, command=text_svm_m1)
+b_text_svm = tk.Button(win, text='文本_svm_分类', width=15, height=1, command=text_svm_m1)
 b_text_svm.place(x=150, y=150, anchor='nw')
 b_url_knn = tk.Button(win, text='URL_knn_分类', width=15, height=1, command=url_knn_m1)
 b_url_knn.place(x=20, y=200, anchor='nw')
-b_text_knn = tk.Button(win, text='URL_knn_分类', width=15, height=1, command=text_knn_m1)
+b_text_knn = tk.Button(win, text='文本_knn_分类', width=15, height=1, command=text_knn_m1)
 b_text_knn.place(x=150, y=200, anchor='nw')
 win.mainloop()

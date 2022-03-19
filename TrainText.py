@@ -1,14 +1,11 @@
 import itertools
 import os.path
 import re
-
 import jieba
 import joblib
-import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
 from sklearn import svm
-from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.naive_bayes import MultinomialNB
@@ -156,14 +153,14 @@ def test_knn_model(text):
     return model.predict(count.transform(text))[0]
 
 
-if __name__ == '__main__':
-# def init():
+# if __name__ == '__main__':
+def init():
     ns.GetData()
     data = pd.read_csv('newdata.csv', encoding='utf-8', engine='python')
     TrainModel(data)
     testmodel('当地时间2022年2月12日，克里米亚塞瓦斯托波尔巴拉克拉瓦， 巴拉克拉瓦地下博物馆中的展品。巴拉克拉瓦地下博物馆是军事历史防御工事博物馆的一个分馆，这里原先是一个潜艇基地。')
-    # train_svm_model(data)
-    # test_svm_model('当地时间2022年2月12日，克里米亚塞瓦斯托波尔巴拉克拉瓦， 巴拉克拉瓦地下博物馆中的展品。巴拉克拉瓦地下博物馆是军事历史防御工事博物馆的一个分馆，这里原先是一个潜艇基地。')
-    # train_knn_model(data)
-    # test_knn_model('当地时间2022年2月12日，克里米亚塞瓦斯托波尔巴拉克拉瓦， 巴拉克拉瓦地下博物馆中的展品。巴拉克拉瓦地下博物馆是军事历史防御工事博物馆的一个分馆，这里原先是一个潜艇基地。')
+    train_svm_model(data)
+    test_svm_model('当地时间2022年2月12日，克里米亚塞瓦斯托波尔巴拉克拉瓦， 巴拉克拉瓦地下博物馆中的展品。巴拉克拉瓦地下博物馆是军事历史防御工事博物馆的一个分馆，这里原先是一个潜艇基地。')
+    train_knn_model(data)
+    test_knn_model('当地时间2022年2月12日，克里米亚塞瓦斯托波尔巴拉克拉瓦， 巴拉克拉瓦地下博物馆中的展品。巴拉克拉瓦地下博物馆是军事历史防御工事博物馆的一个分馆，这里原先是一个潜艇基地。')
     # return data

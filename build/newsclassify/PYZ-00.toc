@@ -192,12 +192,6 @@
   ('zipimport',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipimport.py',
    'PYMODULE'),
-  ('importlib.abc',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('typing',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\typing.py',
-   'PYMODULE'),
   ('multiprocessing.process',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\process.py',
    'PYMODULE'),
@@ -426,6 +420,9 @@
   ('asyncio.staggered',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\staggered.py',
    'PYMODULE'),
+  ('typing',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\typing.py',
+   'PYMODULE'),
   ('asyncio.tasks',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\tasks.py',
    'PYMODULE'),
@@ -629,6 +626,9 @@
    'PYMODULE'),
   ('pathlib',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\abc.py',
    'PYMODULE'),
   ('importlib._bootstrap',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap.py',
@@ -839,1029 +839,81 @@
   ('imp',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\imp.py',
    'PYMODULE'),
-  ('sklearn.utils',
+  ('sklearn.neighbors',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\__init__.py',
    'PYMODULE'),
-  ('sklearn.base',
+  ('sklearn.tree',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\base.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\__init__.py',
    'PYMODULE'),
-  ('sklearn.metrics',
+  ('sklearn.tree._export',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\_export.py',
    'PYMODULE'),
-  ('sklearn.metrics._plot.confusion_matrix',
+  ('matplotlib.text',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\confusion_matrix.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\text.py',
    'PYMODULE'),
-  ('sklearn.metrics._plot',
+  ('matplotlib.offsetbox',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\offsetbox.py',
    'PYMODULE'),
-  ('matplotlib.pyplot',
+  ('matplotlib.image',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\pyplot.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\image.py',
    'PYMODULE'),
-  ('matplotlib.patheffects',
+  ('matplotlib.figure',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\patheffects.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\figure.py',
    'PYMODULE'),
-  ('matplotlib.path',
+  ('matplotlib.tight_layout',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\path.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tight_layout.py',
    'PYMODULE'),
-  ('matplotlib.hatch',
+  ('matplotlib._constrained_layout',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\hatch.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_constrained_layout.py',
    'PYMODULE'),
-  ('matplotlib.bezier',
+  ('matplotlib._layoutgrid',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\bezier.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_layoutgrid.py',
    'PYMODULE'),
-  ('matplotlib.transforms',
+  ('matplotlib._pylab_helpers',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\transforms.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_pylab_helpers.py',
    'PYMODULE'),
-  ('numpy.linalg',
+  ('matplotlib.backends.backend_webagg',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_webagg.py',
    'PYMODULE'),
-  ('numpy._pytesttester',
+  ('matplotlib.backends.backend_webagg_core',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\_pytesttester.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_webagg_core.py',
    'PYMODULE'),
-  ('numpy.testing',
+  ('matplotlib.backends.backend_agg',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_agg.py',
    'PYMODULE'),
-  ('numpy.testing._private.nosetester',
+  ('matplotlib.mathtext',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\mathtext.py',
    'PYMODULE'),
-  ('numpy.testing._private.noseclasses',
+  ('matplotlib._mathtext_data',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_mathtext_data.py',
    'PYMODULE'),
-  ('numpy.core',
+  ('matplotlib._mathtext',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_mathtext.py',
    'PYMODULE'),
-  ('numpy.core._dtype',
+  ('matplotlib.afm',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_dtype.py',
-   'PYMODULE'),
-  ('numpy.core._internal',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_internal.py',
-   'PYMODULE'),
-  ('numpy.core._dtype_ctypes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
-   'PYMODULE'),
-  ('numpy.core._add_newdocs_scalars',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
-   'PYMODULE'),
-  ('numpy.core._add_newdocs',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
-   'PYMODULE'),
-  ('numpy.core.einsumfunc',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
-   'PYMODULE'),
-  ('numpy.core._machar',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_machar.py',
-   'PYMODULE'),
-  ('numpy.core._ufunc_config',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
-   'PYMODULE'),
-  ('numpy.core.function_base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\function_base.py',
-   'PYMODULE'),
-  ('numpy.core.memmap',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\memmap.py',
-   'PYMODULE'),
-  ('numpy.compat',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\compat\\__init__.py',
-   'PYMODULE'),
-  ('numpy.compat.py3k',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\compat\\py3k.py',
-   'PYMODULE'),
-  ('numpy.compat._inspect',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\compat\\_inspect.py',
-   'PYMODULE'),
-  ('numpy.core.records',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\records.py',
-   'PYMODULE'),
-  ('numpy.core.arrayprint',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\arrayprint.py',
-   'PYMODULE'),
-  ('numpy.core.defchararray',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\defchararray.py',
-   'PYMODULE'),
-  ('numpy.core._asarray',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_asarray.py',
-   'PYMODULE'),
-  ('numpy.core.shape_base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\shape_base.py',
-   'PYMODULE'),
-  ('numpy.core.fromnumeric',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
-   'PYMODULE'),
-  ('numpy.core._methods',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_methods.py',
-   'PYMODULE'),
-  ('numpy.lib.stride_tricks',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
-   'PYMODULE'),
-  ('numpy.lib',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\__init__.py',
-   'PYMODULE'),
-  ('numpy.lib._version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\_version.py',
-   'PYMODULE'),
-  ('numpy.lib.arraypad',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\arraypad.py',
-   'PYMODULE'),
-  ('numpy.lib.arrayterator',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
-   'PYMODULE'),
-  ('numpy.lib.npyio',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\npyio.py',
-   'PYMODULE'),
-  ('numpy.ma.mrecords',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\mrecords.py',
-   'PYMODULE'),
-  ('numpy.ma',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\__init__.py',
-   'PYMODULE'),
-  ('numpy.ma.extras',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\extras.py',
-   'PYMODULE'),
-  ('numpy.ma.core',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\core.py',
-   'PYMODULE'),
-  ('numpy.lib._iotools',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\_iotools.py',
-   'PYMODULE'),
-  ('numpy.lib._datasource',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\_datasource.py',
-   'PYMODULE'),
-  ('numpy.lib.format',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\format.py',
-   'PYMODULE'),
-  ('numpy.lib.arraysetops',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
-   'PYMODULE'),
-  ('numpy.lib.utils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\utils.py',
-   'PYMODULE'),
-  ('numpy.lib.polynomial',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\polynomial.py',
-   'PYMODULE'),
-  ('numpy.lib.histograms',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\histograms.py',
-   'PYMODULE'),
-  ('numpy.lib.ufunclike',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
-   'PYMODULE'),
-  ('numpy.lib.twodim_base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
-   'PYMODULE'),
-  ('numpy.lib.shape_base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\shape_base.py',
-   'PYMODULE'),
-  ('numpy.matrixlib.defmatrix',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
-   'PYMODULE'),
-  ('numpy.matrixlib',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
-   'PYMODULE'),
-  ('numpy.lib.nanfunctions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
-   'PYMODULE'),
-  ('numpy.lib.function_base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\function_base.py',
-   'PYMODULE'),
-  ('numpy.lib.index_tricks',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
-   'PYMODULE'),
-  ('numpy.lib.type_check',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\type_check.py',
-   'PYMODULE'),
-  ('numpy.lib.scimath',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\scimath.py',
-   'PYMODULE'),
-  ('numpy.lib.mixins',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\mixins.py',
-   'PYMODULE'),
-  ('numpy._globals',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\_globals.py',
-   'PYMODULE'),
-  ('numpy.core.getlimits',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\getlimits.py',
-   'PYMODULE'),
-  ('numpy.core._exceptions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_exceptions.py',
-   'PYMODULE'),
-  ('numpy.core.numeric',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\numeric.py',
-   'PYMODULE'),
-  ('numpy.core.numerictypes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\numerictypes.py',
-   'PYMODULE'),
-  ('numpy.core._type_aliases',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
-   'PYMODULE'),
-  ('numpy.core._string_helpers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
-   'PYMODULE'),
-  ('numpy.core.umath',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\umath.py',
-   'PYMODULE'),
-  ('numpy.core.multiarray',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\multiarray.py',
-   'PYMODULE'),
-  ('numpy.core.overrides',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\overrides.py',
-   'PYMODULE'),
-  ('numpy.version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\version.py',
-   'PYMODULE'),
-  ('numpy._version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\_version.py',
-   'PYMODULE'),
-  ('json',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\__init__.py',
-   'PYMODULE'),
-  ('json.encoder',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\encoder.py',
-   'PYMODULE'),
-  ('json.decoder',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\decoder.py',
-   'PYMODULE'),
-  ('json.scanner',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\scanner.py',
-   'PYMODULE'),
-  ('numpy.testing._private.decorators',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
-   'PYMODULE'),
-  ('numpy.testing._private.parameterized',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
-   'PYMODULE'),
-  ('numpy.testing._private.extbuild',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
-   'PYMODULE'),
-  ('numpy.distutils.ccompiler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
-   'PYMODULE'),
-  ('numpy.distutils.fcompiler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.config_compiler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
-   'PYMODULE'),
-  ('numpy.distutils.command',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.egg_info',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.develop',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.install_clib',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.bdist_rpm',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
-   'PYMODULE'),
-  ('distutils.command.bdist_rpm',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\bdist_rpm.py',
-   'PYMODULE'),
-  ('distutils.command',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\__init__.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.install',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
-   'PYMODULE'),
-  ('distutils.command.install',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\install.py',
-   'PYMODULE'),
-  ('site',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.install_headers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
-   'PYMODULE'),
-  ('distutils.command.install_headers',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\install_headers.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.install_data',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
-   'PYMODULE'),
-  ('distutils.command.install_data',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\install_data.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.sdist',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
-   'PYMODULE'),
-  ('distutils.command.sdist',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\sdist.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.build_scripts',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
-   'PYMODULE'),
-  ('distutils.command.build_scripts',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_scripts.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.build_clib',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
-   'PYMODULE'),
-  ('numpy.distutils.ccompiler_opt',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\ccompiler_opt.py',
-   'PYMODULE'),
-  ('distutils.command.build_clib',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_clib.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.build_ext',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
-   'PYMODULE'),
-  ('numpy.distutils.system_info',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\system_info.py',
-   'PYMODULE'),
-  ('distutils.command.build_ext',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_ext.py',
-   'PYMODULE'),
-  ('distutils._msvccompiler',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\_msvccompiler.py',
-   'PYMODULE'),
-  ('distutils.extension',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\extension.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.build_py',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
-   'PYMODULE'),
-  ('distutils.command.build_py',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_py.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.build',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
-   'PYMODULE'),
-  ('distutils.command.build',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.config',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
-   'PYMODULE'),
-  ('distutils.msvc9compiler',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\msvc9compiler.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.autodist',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
-   'PYMODULE'),
-  ('numpy.distutils.mingw32ccompiler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
-   'PYMODULE'),
-  ('numpy.distutils.lib2def',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
-   'PYMODULE'),
-  ('distutils.msvccompiler',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\msvccompiler.py',
-   'PYMODULE'),
-  ('distutils.unixccompiler',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\unixccompiler.py',
-   'PYMODULE'),
-  ('distutils.cygwinccompiler',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\cygwinccompiler.py',
-   'PYMODULE'),
-  ('distutils.command.config',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\config.py',
-   'PYMODULE'),
-  ('distutils.core',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\core.py',
-   'PYMODULE'),
-  ('distutils.config',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\config.py',
-   'PYMODULE'),
-  ('cgi',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\cgi.py',
-   'PYMODULE'),
-  ('distutils.cmd',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\cmd.py',
-   'PYMODULE'),
-  ('distutils.dist',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\dist.py',
-   'PYMODULE'),
-  ('distutils.versionpredicate',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\versionpredicate.py',
-   'PYMODULE'),
-  ('numpy.distutils.core',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\core.py',
-   'PYMODULE'),
-  ('numpy.distutils.command.build_src',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
-   'PYMODULE'),
-  ('numpy.distutils.conv_template',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
-   'PYMODULE'),
-  ('numpy.distutils.from_template',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\from_template.py',
-   'PYMODULE'),
-  ('numpy.distutils.numpy_distribution',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
-   'PYMODULE'),
-  ('numpy.distutils.extension',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\extension.py',
-   'PYMODULE'),
-  ('numpy.distutils.fcompiler.environment',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
-   'PYMODULE'),
-  ('numpy.distutils._shell_utils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
-   'PYMODULE'),
-  ('pipes',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pipes.py',
-   'PYMODULE'),
-  ('numpy.distutils.misc_util',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
-   'PYMODULE'),
-  ('numpy.distutils.npy_pkg_config',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
-   'PYMODULE'),
-  ('curses',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\curses\\__init__.py',
-   'PYMODULE'),
-  ('curses.has_key',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\curses\\has_key.py',
-   'PYMODULE'),
-  ('numpy.distutils.exec_command',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
-   'PYMODULE'),
-  ('numpy.distutils.log',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\log.py',
-   'PYMODULE'),
-  ('distutils.version',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\version.py',
-   'PYMODULE'),
-  ('numpy.testing._private',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
-   'PYMODULE'),
-  ('numpy.testing._private.utils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
-   'PYMODULE'),
-  ('numpy.array_api',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\__init__.py',
-   'PYMODULE'),
-  ('numpy.array_api._utility_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._array_object',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_array_object.py',
-   'PYMODULE'),
-  ('numpy.typing',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\__init__.py',
-   'PYMODULE'),
-  ('numpy.typing._add_docstring',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_add_docstring.py',
-   'PYMODULE'),
-  ('numpy.typing._generic_alias',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_generic_alias.py',
-   'PYMODULE'),
-  ('numpy.typing._array_like',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_array_like.py',
-   'PYMODULE'),
-  ('numpy.typing._dtype_like',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_dtype_like.py',
-   'PYMODULE'),
-  ('numpy.typing._shape',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_shape.py',
-   'PYMODULE'),
-  ('numpy.typing._scalars',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_scalars.py',
-   'PYMODULE'),
-  ('numpy.typing._char_codes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_char_codes.py',
-   'PYMODULE'),
-  ('numpy.typing._nbit',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_nbit.py',
-   'PYMODULE'),
-  ('numpy.typing._nested_sequence',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_nested_sequence.py',
-   'PYMODULE'),
-  ('numpy.array_api._typing',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_typing.py',
-   'PYMODULE'),
-  ('numpy.array_api._statistical_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._sorting_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._set_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_set_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._searching_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._manipulation_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api.linalg',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\linalg.py',
-   'PYMODULE'),
-  ('numpy.array_api._elementwise_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._dtypes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_dtypes.py',
-   'PYMODULE'),
-  ('numpy.array_api._data_type_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
-   'PYMODULE'),
-  ('dataclasses',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dataclasses.py',
-   'PYMODULE'),
-  ('numpy.array_api._creation_functions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
-   'PYMODULE'),
-  ('numpy.array_api._constants',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_constants.py',
-   'PYMODULE'),
-  ('numpy.distutils.cpuinfo',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
-   'PYMODULE'),
-  ('numpy.distutils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\__init__.py',
-   'PYMODULE'),
-  ('numpy.distutils.__config__',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\__config__.py',
-   'PYMODULE'),
-  ('numpy.distutils.unixccompiler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
-   'PYMODULE'),
-  ('numpy.linalg.linalg',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\linalg\\linalg.py',
-   'PYMODULE'),
-  ('matplotlib.backends',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\__init__.py',
-   'PYMODULE'),
-  ('matplotlib.backends.backend_tkagg',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_tkagg.py',
-   'PYMODULE'),
-  ('matplotlib.backends._backend_tk',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\_backend_tk.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\afm.py',
    'PYMODULE'),
   ('matplotlib.backend_tools',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backend_tools.py',
-   'PYMODULE'),
-  ('PIL.ImageTk',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\ImageTk.py',
-   'PYMODULE'),
-  ('cffi',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\__init__.py',
-   'PYMODULE'),
-  ('cffi.error',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\error.py',
-   'PYMODULE'),
-  ('cffi.api',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\api.py',
-   'PYMODULE'),
-  ('ctypes.util',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\util.py',
-   'PYMODULE'),
-  ('ctypes._aix',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\_aix.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dyld',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\dyld.py',
-   'PYMODULE'),
-  ('ctypes.macholib',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\__init__.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dylib',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\dylib.py',
-   'PYMODULE'),
-  ('ctypes.macholib.framework',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\framework.py',
-   'PYMODULE'),
-  ('cffi.recompiler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\recompiler.py',
-   'PYMODULE'),
-  ('cffi.cffi_opcode',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\cffi_opcode.py',
-   'PYMODULE'),
-  ('cffi.verifier',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\verifier.py',
-   'PYMODULE'),
-  ('cffi.lock',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\lock.py',
-   'PYMODULE'),
-  ('cffi.pkgconfig',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\pkgconfig.py',
-   'PYMODULE'),
-  ('cffi.vengine_cpy',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\vengine_cpy.py',
-   'PYMODULE'),
-  ('cffi.vengine_gen',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\vengine_gen.py',
-   'PYMODULE'),
-  ('cffi.ffiplatform',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\ffiplatform.py',
-   'PYMODULE'),
-  ('setuptools',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.more_itertools.recipes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
-   'PYMODULE'),
-  ('setuptools._vendor.more_itertools.more',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.utils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.tags',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.requirements',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._typing',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._compat',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.ordered_set',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
-   'PYMODULE'),
-  ('setuptools._vendor.more_itertools',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('setuptools.msvc',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\msvc.py',
-   'PYMODULE'),
-  ('setuptools.namespaces',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\namespaces.py',
-   'PYMODULE'),
-  ('setuptools.ssl_support',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\ssl_support.py',
-   'PYMODULE'),
-  ('setuptools.monkey',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\monkey.py',
-   'PYMODULE'),
-  ('setuptools.depends',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\depends.py',
-   'PYMODULE'),
-  ('setuptools._imp',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_imp.py',
-   'PYMODULE'),
-  ('setuptools.py34compat',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\py34compat.py',
-   'PYMODULE'),
-  ('setuptools.dist',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\dist.py',
-   'PYMODULE'),
-  ('setuptools.installer',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\installer.py',
-   'PYMODULE'),
-  ('setuptools.wheel',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\wheel.py',
-   'PYMODULE'),
-  ('setuptools.command.egg_info',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\egg_info.py',
-   'PYMODULE'),
-  ('setuptools.glob',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\glob.py',
-   'PYMODULE'),
-  ('setuptools.unicode_utils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\unicode_utils.py',
-   'PYMODULE'),
-  ('setuptools.command.bdist_egg',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
-   'PYMODULE'),
-  ('setuptools.command.setopt',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\setopt.py',
-   'PYMODULE'),
-  ('setuptools.command.sdist',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\sdist.py',
-   'PYMODULE'),
-  ('setuptools.command.py36compat',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\py36compat.py',
-   'PYMODULE'),
-  ('setuptools.config',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\config.py',
-   'PYMODULE'),
-  ('setuptools.command',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\__init__.py',
-   'PYMODULE'),
-  ('setuptools.command.easy_install',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\easy_install.py',
-   'PYMODULE'),
-  ('setuptools.package_index',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\package_index.py',
-   'PYMODULE'),
-  ('setuptools.archive_util',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\archive_util.py',
-   'PYMODULE'),
-  ('setuptools.sandbox',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\sandbox.py',
-   'PYMODULE'),
-  ('distutils.command.bdist',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\bdist.py',
-   'PYMODULE'),
-  ('setuptools.extern',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\extern\\__init__.py',
-   'PYMODULE'),
-  ('setuptools.windows_support',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\windows_support.py',
-   'PYMODULE'),
-  ('setuptools.extension',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\extension.py',
-   'PYMODULE'),
-  ('setuptools.version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\version.py',
-   'PYMODULE'),
-  ('setuptools._deprecation_warning',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
-   'PYMODULE'),
-  ('_distutils_hack.override',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\_distutils_hack\\override.py',
-   'PYMODULE'),
-  ('_distutils_hack',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\_distutils_hack\\__init__.py',
-   'PYMODULE'),
-  ('cffi.cparser',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\cparser.py',
-   'PYMODULE'),
-  ('pycparser.lextab',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\lextab.py',
-   'PYMODULE'),
-  ('pycparser.yacctab',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\yacctab.py',
-   'PYMODULE'),
-  ('pycparser',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\__init__.py',
-   'PYMODULE'),
-  ('pycparser.c_parser',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\c_parser.py',
-   'PYMODULE'),
-  ('pycparser.ast_transforms',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ast_transforms.py',
-   'PYMODULE'),
-  ('pycparser.plyparser',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\plyparser.py',
-   'PYMODULE'),
-  ('pycparser.c_lexer',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\c_lexer.py',
-   'PYMODULE'),
-  ('pycparser.ply.lex',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ply\\lex.py',
-   'PYMODULE'),
-  ('pycparser.ply.yacc',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ply\\yacc.py',
-   'PYMODULE'),
-  ('pycparser.ply',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ply\\__init__.py',
-   'PYMODULE'),
-  ('pycparser.c_ast',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\c_ast.py',
-   'PYMODULE'),
-  ('cffi.commontypes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\commontypes.py',
-   'PYMODULE'),
-  ('cffi.model',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\model.py',
    'PYMODULE'),
   ('PIL.Image',
    'e:\\pycharm '
@@ -1902,6 +954,10 @@
   ('PIL.SpiderImagePlugin',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\ImageTk.py',
    'PYMODULE'),
   ('PIL.SgiImagePlugin',
    'e:\\pycharm '
@@ -2086,14 +1142,6 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\GimpGradientFile.py',
    'PYMODULE'),
-  ('PIL.PngImagePlugin',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\PngImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImageChops',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\ImageChops.py',
-   'PYMODULE'),
   ('PIL.PpmImagePlugin',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
@@ -2110,9 +1158,375 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\GifImagePlugin.py',
    'PYMODULE'),
+  ('PIL.ImageChops',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
   ('PIL.BmpImagePlugin',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('cffi',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('site',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\cgi.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('setuptools',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._typing',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools.py34compat',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\py34compat.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('pycparser.lextab',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\lextab.py',
+   'PYMODULE'),
+  ('pycparser.yacctab',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\yacctab.py',
+   'PYMODULE'),
+  ('pycparser',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.plyparser',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\plyparser.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.ply.lex',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ply\\lex.py',
+   'PYMODULE'),
+  ('pycparser.ply.yacc',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ply\\yacc.py',
+   'PYMODULE'),
+  ('pycparser.ply',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\ply\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cffi\\model.py',
    'PYMODULE'),
   ('PIL._util',
    'e:\\pycharm '
@@ -2138,6 +1552,50 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\_version.py',
    'PYMODULE'),
+  ('json',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('matplotlib.backends',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_tkagg',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_tkagg.py',
+   'PYMODULE'),
+  ('matplotlib.backends._backend_tk',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\_backend_tk.py',
+   'PYMODULE'),
+  ('matplotlib.widgets',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\widgets.py',
+   'PYMODULE'),
+  ('matplotlib.lines',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\lines.py',
+   'PYMODULE'),
+  ('matplotlib._enums',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_enums.py',
+   'PYMODULE'),
+  ('matplotlib.markers',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\markers.py',
+   'PYMODULE'),
+  ('matplotlib.ticker',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\ticker.py',
+   'PYMODULE'),
   ('tkinter.simpledialog',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tkinter\\simpledialog.py',
    'PYMODULE'),
@@ -2156,182 +1614,41 @@
   ('tkinter.dialog',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tkinter\\dialog.py',
    'PYMODULE'),
-  ('matplotlib.backends.backend_webagg',
+  ('matplotlib.legend',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_webagg.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\legend.py',
    'PYMODULE'),
-  ('matplotlib.backends.backend_webagg_core',
+  ('matplotlib.legend_handler',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_webagg_core.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\legend_handler.py',
    'PYMODULE'),
-  ('matplotlib.backends.backend_agg',
+  ('matplotlib.container',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backends\\backend_agg.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\container.py',
    'PYMODULE'),
-  ('matplotlib.mathtext',
+  ('matplotlib.collections',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\mathtext.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\collections.py',
    'PYMODULE'),
-  ('matplotlib._mathtext_data',
+  ('matplotlib.hatch',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_mathtext_data.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\hatch.py',
    'PYMODULE'),
-  ('matplotlib._mathtext',
+  ('matplotlib.gridspec',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_mathtext.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\gridspec.py',
    'PYMODULE'),
-  ('matplotlib.afm',
+  ('matplotlib.axes',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\afm.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\__init__.py',
    'PYMODULE'),
-  ('matplotlib.font_manager',
+  ('matplotlib.axes._axes',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\font_manager.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_axes.py',
    'PYMODULE'),
-  ('matplotlib.fontconfig_pattern',
+  ('matplotlib.axes._secondary_axes',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\fontconfig_pattern.py',
-   'PYMODULE'),
-  ('matplotlib.ticker',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\ticker.py',
-   'PYMODULE'),
-  ('matplotlib.widgets',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\widgets.py',
-   'PYMODULE'),
-  ('matplotlib.patches',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\patches.py',
-   'PYMODULE'),
-  ('matplotlib._enums',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_enums.py',
-   'PYMODULE'),
-  ('matplotlib.text',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\text.py',
-   'PYMODULE'),
-  ('matplotlib.offsetbox',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\offsetbox.py',
-   'PYMODULE'),
-  ('matplotlib.textpath',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\textpath.py',
-   'PYMODULE'),
-  ('matplotlib.texmanager',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\texmanager.py',
-   'PYMODULE'),
-  ('matplotlib.dviread',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\dviread.py',
-   'PYMODULE'),
-  ('matplotlib._text_helpers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_text_helpers.py',
-   'PYMODULE'),
-  ('matplotlib.lines',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\lines.py',
-   'PYMODULE'),
-  ('matplotlib.markers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\markers.py',
-   'PYMODULE'),
-  ('matplotlib.colors',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\colors.py',
-   'PYMODULE'),
-  ('matplotlib._color_data',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_color_data.py',
-   'PYMODULE'),
-  ('matplotlib.cm',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\cm.py',
-   'PYMODULE'),
-  ('matplotlib._cm_listed',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_cm_listed.py',
-   'PYMODULE'),
-  ('matplotlib._cm',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_cm.py',
-   'PYMODULE'),
-  ('matplotlib.scale',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\scale.py',
-   'PYMODULE'),
-  ('matplotlib.mlab',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\mlab.py',
-   'PYMODULE'),
-  ('matplotlib.projections',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\projections\\__init__.py',
-   'PYMODULE'),
-  ('mpl_toolkits.mplot3d',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\__init__.py',
-   'PYMODULE'),
-  ('mpl_toolkits', '-', 'PYMODULE'),
-  ('mpl_toolkits.mplot3d.axes3d',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axes3d.py',
-   'PYMODULE'),
-  ('matplotlib.tri.triangulation',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\triangulation.py',
-   'PYMODULE'),
-  ('matplotlib.tri',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\__init__.py',
-   'PYMODULE'),
-  ('matplotlib.tri.triplot',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\triplot.py',
-   'PYMODULE'),
-  ('matplotlib.tri.tripcolor',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\tripcolor.py',
-   'PYMODULE'),
-  ('matplotlib.tri.trirefine',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\trirefine.py',
-   'PYMODULE'),
-  ('matplotlib.tri.triinterpolate',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\triinterpolate.py',
-   'PYMODULE'),
-  ('matplotlib.tri.tritools',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\tritools.py',
-   'PYMODULE'),
-  ('matplotlib.tri.tricontour',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\tricontour.py',
-   'PYMODULE'),
-  ('matplotlib.contour',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\contour.py',
-   'PYMODULE'),
-  ('matplotlib.tri.trifinder',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\trifinder.py',
-   'PYMODULE'),
-  ('matplotlib.axes._base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_base.py',
-   'PYMODULE'),
-  ('matplotlib.table',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\table.py',
-   'PYMODULE'),
-  ('matplotlib.spines',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\spines.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_secondary_axes.py',
    'PYMODULE'),
   ('matplotlib.axis',
    'e:\\pycharm '
@@ -2404,17 +1721,764 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\dateutil\\_version.py',
    'PYMODULE'),
+  ('matplotlib.scale',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\scale.py',
+   'PYMODULE'),
+  ('matplotlib.axes._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_base.py',
+   'PYMODULE'),
+  ('matplotlib.spines',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\spines.py',
+   'PYMODULE'),
+  ('matplotlib.rcsetup',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\rcsetup.py',
+   'PYMODULE'),
+  ('cycler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cycler.py',
+   'PYMODULE'),
+  ('matplotlib.fontconfig_pattern',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\fontconfig_pattern.py',
+   'PYMODULE'),
   ('matplotlib.units',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\units.py',
    'PYMODULE'),
-  ('matplotlib.container',
+  ('matplotlib.tri',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\container.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\__init__.py',
    'PYMODULE'),
-  ('matplotlib.collections',
+  ('matplotlib.tri.triplot',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\collections.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\triplot.py',
+   'PYMODULE'),
+  ('matplotlib.tri.tripcolor',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\tripcolor.py',
+   'PYMODULE'),
+  ('matplotlib.tri.trirefine',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\trirefine.py',
+   'PYMODULE'),
+  ('matplotlib.tri.triinterpolate',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\triinterpolate.py',
+   'PYMODULE'),
+  ('matplotlib.tri.trifinder',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\trifinder.py',
+   'PYMODULE'),
+  ('matplotlib.tri.tritools',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\tritools.py',
+   'PYMODULE'),
+  ('matplotlib.tri.tricontour',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\tricontour.py',
+   'PYMODULE'),
+  ('matplotlib.tri.triangulation',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tri\\triangulation.py',
+   'PYMODULE'),
+  ('matplotlib.table',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\table.py',
+   'PYMODULE'),
+  ('matplotlib.streamplot',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\streamplot.py',
+   'PYMODULE'),
+  ('matplotlib.stackplot',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\stackplot.py',
+   'PYMODULE'),
+  ('matplotlib.quiver',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\quiver.py',
+   'PYMODULE'),
+  ('matplotlib.mlab',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\mlab.py',
+   'PYMODULE'),
+  ('matplotlib.dates',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\dates.py',
+   'PYMODULE'),
+  ('matplotlib.contour',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\contour.py',
+   'PYMODULE'),
+  ('matplotlib.category',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\category.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core._machar',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_machar.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config_compiler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.egg_info',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.develop',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_clib',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.bdist_rpm',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command.bdist_rpm',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_headers',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('distutils.command.install_headers',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_data',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('distutils.command.install_data',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.sdist',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_scripts',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_clib',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler_opt',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\ccompiler_opt.py',
+   'PYMODULE'),
+  ('distutils.command.build_clib',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_ext',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('numpy.distutils.system_info',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\system_info.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_py',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('distutils.command.build_py',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('distutils.command.build',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.autodist',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
+   'PYMODULE'),
+  ('numpy.distutils.mingw32ccompiler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.lib2def',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
+   'PYMODULE'),
+  ('distutils.msvccompiler',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.unixccompiler',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('distutils.cygwinccompiler',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('distutils.command.config',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('numpy.distutils.core',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\core.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_src',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
+   'PYMODULE'),
+  ('numpy.distutils.conv_template',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.from_template',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\from_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.numpy_distribution',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
+   'PYMODULE'),
+  ('numpy.distutils.extension',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler.environment',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
+   'PYMODULE'),
+  ('numpy.distutils._shell_utils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
+   'PYMODULE'),
+  ('pipes',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pipes.py',
+   'PYMODULE'),
+  ('numpy.distutils.misc_util',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
+   'PYMODULE'),
+  ('numpy.distutils.npy_pkg_config',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
+   'PYMODULE'),
+  ('curses',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('numpy.distutils.exec_command',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
+   'PYMODULE'),
+  ('numpy.distutils.log',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\log.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.array_api',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\__init__.py',
+   'PYMODULE'),
+  ('numpy.array_api._utility_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._array_object',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_array_object.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.typing._add_docstring',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy.typing._generic_alias',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_generic_alias.py',
+   'PYMODULE'),
+  ('numpy.typing._array_like',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy.typing._dtype_like',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy.typing._shape',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy.typing._scalars',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy.typing._char_codes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy.typing._nbit',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy.typing._nested_sequence',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy.array_api._typing',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_typing.py',
+   'PYMODULE'),
+  ('numpy.array_api._statistical_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._sorting_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._set_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_set_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._searching_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._manipulation_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api.linalg',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\linalg.py',
+   'PYMODULE'),
+  ('numpy.array_api._elementwise_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._dtypes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_dtypes.py',
+   'PYMODULE'),
+  ('numpy.array_api._data_type_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('numpy.array_api._creation_functions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._constants',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\array_api\\_constants.py',
+   'PYMODULE'),
+  ('numpy.distutils.cpuinfo',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
+   'PYMODULE'),
+  ('numpy.distutils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.__config__',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\__config__.py',
+   'PYMODULE'),
+  ('numpy.distutils.unixccompiler',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('matplotlib.axes._subplots',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_subplots.py',
+   'PYMODULE'),
+  ('matplotlib.colorbar',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\colorbar.py',
+   'PYMODULE'),
+  ('matplotlib._blocking_input',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_blocking_input.py',
+   'PYMODULE'),
+  ('matplotlib.cm',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\cm.py',
+   'PYMODULE'),
+  ('matplotlib._cm_listed',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_cm_listed.py',
+   'PYMODULE'),
+  ('matplotlib._cm',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_cm.py',
+   'PYMODULE'),
+  ('matplotlib.colors',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\colors.py',
+   'PYMODULE'),
+  ('matplotlib._color_data',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_color_data.py',
+   'PYMODULE'),
+  ('matplotlib.backend_bases',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backend_bases.py',
+   'PYMODULE'),
+  ('matplotlib.texmanager',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\texmanager.py',
+   'PYMODULE'),
+  ('matplotlib.dviread',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\dviread.py',
+   'PYMODULE'),
+  ('matplotlib.backend_managers',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backend_managers.py',
+   'PYMODULE'),
+  ('matplotlib.tight_bbox',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tight_bbox.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('matplotlib.path',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\path.py',
+   'PYMODULE'),
+  ('matplotlib.bezier',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\bezier.py',
+   'PYMODULE'),
+  ('matplotlib.projections',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\projections\\__init__.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\__init__.py',
+   'PYMODULE'),
+  ('mpl_toolkits', '-', 'PYMODULE'),
+  ('mpl_toolkits.mplot3d.axes3d',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axes3d.py',
    'PYMODULE'),
   ('mpl_toolkits.mplot3d.axis3d',
    'e:\\pycharm '
@@ -2436,89 +2500,29 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\projections\\geo.py',
    'PYMODULE'),
-  ('matplotlib.axes',
+  ('matplotlib.patheffects',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\__init__.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\patheffects.py',
    'PYMODULE'),
-  ('matplotlib.axes._axes',
+  ('matplotlib.transforms',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_axes.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\transforms.py',
    'PYMODULE'),
-  ('matplotlib.axes._secondary_axes',
+  ('matplotlib.textpath',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_secondary_axes.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\textpath.py',
    'PYMODULE'),
-  ('matplotlib.streamplot',
+  ('matplotlib._text_helpers',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\streamplot.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_text_helpers.py',
    'PYMODULE'),
-  ('matplotlib.stackplot',
+  ('matplotlib.patches',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\stackplot.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\patches.py',
    'PYMODULE'),
-  ('matplotlib.quiver',
+  ('matplotlib.font_manager',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\quiver.py',
-   'PYMODULE'),
-  ('matplotlib.legend',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\legend.py',
-   'PYMODULE'),
-  ('matplotlib.legend_handler',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\legend_handler.py',
-   'PYMODULE'),
-  ('matplotlib.dates',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\dates.py',
-   'PYMODULE'),
-  ('matplotlib.category',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\category.py',
-   'PYMODULE'),
-  ('matplotlib.axes._subplots',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\axes\\_subplots.py',
-   'PYMODULE'),
-  ('matplotlib.artist',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\artist.py',
-   'PYMODULE'),
-  ('matplotlib.gridspec',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\gridspec.py',
-   'PYMODULE'),
-  ('matplotlib.tight_layout',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tight_layout.py',
-   'PYMODULE'),
-  ('matplotlib.figure',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\figure.py',
-   'PYMODULE'),
-  ('matplotlib._constrained_layout',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_constrained_layout.py',
-   'PYMODULE'),
-  ('matplotlib._layoutgrid',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_layoutgrid.py',
-   'PYMODULE'),
-  ('matplotlib._blocking_input',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_blocking_input.py',
-   'PYMODULE'),
-  ('matplotlib.backend_bases',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backend_bases.py',
-   'PYMODULE'),
-  ('matplotlib.backend_managers',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\backend_managers.py',
-   'PYMODULE'),
-  ('matplotlib.tight_bbox',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\tight_bbox.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\font_manager.py',
    'PYMODULE'),
   ('matplotlib.docstring',
    'e:\\pycharm '
@@ -2532,61 +2536,192 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_api\\deprecation.py',
    'PYMODULE'),
-  ('matplotlib._pylab_helpers',
+  ('matplotlib.artist',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_pylab_helpers.py',
-   'PYMODULE'),
-  ('matplotlib.style',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\style\\__init__.py',
-   'PYMODULE'),
-  ('matplotlib.style.core',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\style\\core.py',
-   'PYMODULE'),
-  ('matplotlib.rcsetup',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\rcsetup.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\artist.py',
    'PYMODULE'),
   ('matplotlib._api',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_api\\__init__.py',
    'PYMODULE'),
-  ('matplotlib.image',
+  ('matplotlib',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\image.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\__init__.py',
    'PYMODULE'),
-  ('matplotlib.colorbar',
+  ('matplotlib.style.core',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\colorbar.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\style\\core.py',
    'PYMODULE'),
-  ('cycler',
+  ('certifi',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\cycler.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('matplotlib.style',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\style\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib._version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_version.py',
+   'PYMODULE'),
+  ('matplotlib.pyplot',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\pyplot.py',
+   'PYMODULE'),
+  ('sklearn.tree._reingold_tilford',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\_reingold_tilford.py',
+   'PYMODULE'),
+  ('sklearn.base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\base.py',
+   'PYMODULE'),
+  ('sklearn.metrics',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.confusion_matrix',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\confusion_matrix.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\__init__.py',
    'PYMODULE'),
   ('sklearn.utils.multiclass',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\multiclass.py',
    'PYMODULE'),
-  ('sklearn.metrics._plot.precision_recall_curve',
+  ('scipy.sparse',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\precision_recall_curve.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\__init__.py',
    'PYMODULE'),
-  ('sklearn.metrics._base',
+  ('scipy._lib._testutils',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_base.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_testutils.py',
    'PYMODULE'),
-  ('sklearn.metrics._plot.base',
+  ('scipy._lib',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\base.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\__init__.py',
    'PYMODULE'),
-  ('sklearn.metrics._plot.roc_curve',
+  ('scipy._lib.doccer',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\roc_curve.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\doccer.py',
    'PYMODULE'),
-  ('sklearn.metrics._plot.det_curve',
+  ('scipy._lib._pep440',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\det_curve.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_pep440.py',
+   'PYMODULE'),
+  ('scipy.sparse.sputils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\sputils.py',
+   'PYMODULE'),
+  ('scipy.sparse._sputils',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_sputils.py',
+   'PYMODULE'),
+  ('scipy._lib._util',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_util.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('scipy.sparse.sparsetools',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\sparsetools.py',
+   'PYMODULE'),
+  ('scipy.sparse.lil',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\lil.py',
+   'PYMODULE'),
+  ('scipy.sparse.extract',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\extract.py',
+   'PYMODULE'),
+  ('scipy.sparse.dok',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\dok.py',
+   'PYMODULE'),
+  ('scipy.sparse.dia',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\dia.py',
+   'PYMODULE'),
+  ('scipy.sparse.data',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\data.py',
+   'PYMODULE'),
+  ('scipy.sparse._data',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_data.py',
+   'PYMODULE'),
+  ('scipy.sparse.csr',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csr.py',
+   'PYMODULE'),
+  ('scipy.sparse.csc',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csc.py',
+   'PYMODULE'),
+  ('scipy.sparse.coo',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\coo.py',
+   'PYMODULE'),
+  ('scipy.sparse.construct',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\construct.py',
+   'PYMODULE'),
+  ('scipy.sparse.compressed',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\compressed.py',
+   'PYMODULE'),
+  ('scipy.sparse._compressed',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_compressed.py',
+   'PYMODULE'),
+  ('scipy.sparse._index',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_index.py',
+   'PYMODULE'),
+  ('scipy.sparse.bsr',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\bsr.py',
+   'PYMODULE'),
+  ('scipy.sparse.base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\base.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csgraph\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph._validation',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csgraph\\_validation.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph._laplacian',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csgraph\\_laplacian.py',
+   'PYMODULE'),
+  ('scipy.sparse._arrays',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_arrays.py',
+   'PYMODULE'),
+  ('scipy.sparse._matrix_io',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_matrix_io.py',
    'PYMODULE'),
   ('scipy',
    'e:\\pycharm '
@@ -2619,10 +2754,6 @@
   ('scipy.integrate._quad_vec',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\integrate\\_quad_vec.py',
-   'PYMODULE'),
-  ('scipy._lib._util',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_util.py',
    'PYMODULE'),
   ('scipy.integrate._ivp',
    'e:\\pycharm '
@@ -2676,10 +2807,6 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\linalg\\_expm_multiply.py',
    'PYMODULE'),
-  ('scipy.sparse._sputils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_sputils.py',
-   'PYMODULE'),
   ('scipy.sparse.linalg._norm',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\linalg\\_norm.py',
@@ -2691,62 +2818,6 @@
   ('scipy.sparse.linalg._matfuncs',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\linalg\\_matfuncs.py',
-   'PYMODULE'),
-  ('scipy.sparse._base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_base.py',
-   'PYMODULE'),
-  ('scipy.sparse._arrays',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_arrays.py',
-   'PYMODULE'),
-  ('scipy.sparse._construct',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_construct.py',
-   'PYMODULE'),
-  ('scipy.sparse._lil',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_lil.py',
-   'PYMODULE'),
-  ('scipy.sparse._index',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_index.py',
-   'PYMODULE'),
-  ('scipy.sparse._dok',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_dok.py',
-   'PYMODULE'),
-  ('scipy.sparse._dia',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_dia.py',
-   'PYMODULE'),
-  ('scipy.sparse._data',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_data.py',
-   'PYMODULE'),
-  ('scipy.sparse._csr',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_csr.py',
-   'PYMODULE'),
-  ('scipy.sparse._spfuncs',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_spfuncs.py',
-   'PYMODULE'),
-  ('scipy.sparse._compressed',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_compressed.py',
-   'PYMODULE'),
-  ('scipy.sparse._csc',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_csc.py',
-   'PYMODULE'),
-  ('scipy.sparse._coo',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_coo.py',
-   'PYMODULE'),
-  ('scipy.sparse._bsr',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_bsr.py',
    'PYMODULE'),
   ('scipy.linalg._basic',
    'e:\\pycharm '
@@ -3192,10 +3263,6 @@
   ('scipy.stats._multivariate',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\stats\\_multivariate.py',
-   'PYMODULE'),
-  ('scipy._lib.doccer',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\doccer.py',
    'PYMODULE'),
   ('scipy.stats.mstats',
    'e:\\pycharm '
@@ -3829,21 +3896,9 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\linalg\\_decomp_lu.py',
    'PYMODULE'),
-  ('scipy._lib._testutils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_testutils.py',
-   'PYMODULE'),
   ('scipy._lib._ccallback',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_ccallback.py',
-   'PYMODULE'),
-  ('scipy._lib._pep440',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_pep440.py',
-   'PYMODULE'),
-  ('scipy._lib',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\__init__.py',
    'PYMODULE'),
   ('scipy._distributor_init',
    'e:\\pycharm '
@@ -3869,17 +3924,73 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
    'PYMODULE'),
-  ('numpy.random',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\random\\__init__.py',
-   'PYMODULE'),
-  ('numpy.random._pickle',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
-   'PYMODULE'),
   ('scipy._lib.deprecation',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\deprecation.py',
+   'PYMODULE'),
+  ('scipy.sparse._extract',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_extract.py',
+   'PYMODULE'),
+  ('scipy.sparse._construct',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_construct.py',
+   'PYMODULE'),
+  ('scipy.sparse._bsr',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_bsr.py',
+   'PYMODULE'),
+  ('scipy.sparse._dia',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_dia.py',
+   'PYMODULE'),
+  ('scipy.sparse._coo',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_coo.py',
+   'PYMODULE'),
+  ('scipy.sparse._dok',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_dok.py',
+   'PYMODULE'),
+  ('scipy.sparse._lil',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_lil.py',
+   'PYMODULE'),
+  ('scipy.sparse._csc',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_csc.py',
+   'PYMODULE'),
+  ('scipy.sparse._csr',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_csr.py',
+   'PYMODULE'),
+  ('scipy.sparse._spfuncs',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_spfuncs.py',
+   'PYMODULE'),
+  ('scipy.sparse._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_base.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.precision_recall_curve',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\precision_recall_curve.py',
+   'PYMODULE'),
+  ('sklearn.metrics._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_base.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\base.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.roc_curve',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\roc_curve.py',
+   'PYMODULE'),
+  ('sklearn.metrics._plot.det_curve',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\_plot\\det_curve.py',
    'PYMODULE'),
   ('sklearn.metrics._scorer',
    'e:\\pycharm '
@@ -3893,481 +4004,9 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\stats.py',
    'PYMODULE'),
-  ('sklearn.utils.extmath',
+  ('sklearn.utils.fixes',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\extmath.py',
-   'PYMODULE'),
-  ('sklearn._loss.glm_distribution',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_loss\\glm_distribution.py',
-   'PYMODULE'),
-  ('sklearn._loss',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_loss\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.metrics.pairwise',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\pairwise.py',
-   'PYMODULE'),
-  ('sklearn.gaussian_process.kernels',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\kernels.py',
-   'PYMODULE'),
-  ('sklearn.gaussian_process',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.gaussian_process._gpc',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\_gpc.py',
-   'PYMODULE'),
-  ('sklearn.multiclass',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\multiclass.py',
-   'PYMODULE'),
-  ('sklearn.utils.metaestimators',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\metaestimators.py',
-   'PYMODULE'),
-  ('sklearn.utils.optimize',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\optimize.py',
-   'PYMODULE'),
-  ('sklearn.gaussian_process._gpr',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\_gpr.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing._data',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_data.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing._encoders',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_encoders.py',
-   'PYMODULE'),
-  ('sklearn.utils._encode',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_encode.py',
-   'PYMODULE'),
-  ('sklearn.utils.sparsefuncs',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\sparsefuncs.py',
-   'PYMODULE'),
-  ('sklearn.utils._mask',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_mask.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing._polynomial',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_polynomial.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing._discretization',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_discretization.py',
-   'PYMODULE'),
-  ('sklearn.cluster',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\__init__.py',
-   'PYMODULE'),
-  ('threadpoolctl',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\threadpoolctl.py',
-   'PYMODULE'),
-  ('sklearn.cluster._birch',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_birch.py',
-   'PYMODULE'),
-  ('sklearn.cluster._bicluster',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_bicluster.py',
-   'PYMODULE'),
-  ('sklearn.cluster._optics',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_optics.py',
-   'PYMODULE'),
-  ('sklearn.neighbors',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.tree',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.tree._export',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\_export.py',
-   'PYMODULE'),
-  ('sklearn.tree._reingold_tilford',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\_reingold_tilford.py',
-   'PYMODULE'),
-  ('sklearn.tree._classes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\_classes.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_base.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._nca',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_nca.py',
-   'PYMODULE'),
-  ('sklearn.discriminant_analysis',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\discriminant_analysis.py',
-   'PYMODULE'),
-  ('sklearn.covariance',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.covariance._elliptic_envelope',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_elliptic_envelope.py',
-   'PYMODULE'),
-  ('sklearn.covariance._graph_lasso',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_graph_lasso.py',
-   'PYMODULE'),
-  ('sklearn.model_selection',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.model_selection._search_successive_halving',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_search_successive_halving.py',
-   'PYMODULE'),
-  ('sklearn.model_selection._search',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_search.py',
-   'PYMODULE'),
-  ('sklearn.model_selection._validation',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_validation.py',
-   'PYMODULE'),
-  ('joblib.logger',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\logger.py',
-   'PYMODULE'),
-  ('joblib.disk',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\disk.py',
-   'PYMODULE'),
-  ('sklearn.model_selection._split',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_split.py',
-   'PYMODULE'),
-  ('sklearn.linear_model',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._theil_sen',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_theil_sen.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._ransac',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_ransac.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._quantile',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_quantile.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._perceptron',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_perceptron.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._passive_aggressive',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_passive_aggressive.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._omp',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_omp.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._logistic',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_logistic.py',
-   'PYMODULE'),
-  ('sklearn.svm._base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\_base.py',
-   'PYMODULE'),
-  ('sklearn.svm',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.svm._bounds',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\_bounds.py',
-   'PYMODULE'),
-  ('sklearn.svm._classes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\_classes.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._sag',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_sag.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._ridge',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_ridge.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._stochastic_gradient',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_stochastic_gradient.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._huber',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_huber.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._glm',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_glm\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._glm.glm',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_glm\\glm.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._glm.link',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_glm\\link.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._coordinate_descent',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_coordinate_descent.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._least_angle',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_least_angle.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._bayes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_bayes.py',
-   'PYMODULE'),
-  ('sklearn.covariance._robust_covariance',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_robust_covariance.py',
-   'PYMODULE'),
-  ('sklearn.covariance._shrunk_covariance',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_shrunk_covariance.py',
-   'PYMODULE'),
-  ('sklearn.covariance._empirical_covariance',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_empirical_covariance.py',
-   'PYMODULE'),
-  ('sklearn.linear_model._base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_base.py',
-   'PYMODULE'),
-  ('sklearn.utils.random',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\random.py',
-   'PYMODULE'),
-  ('sklearn.decomposition',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._lda',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_lda.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._factor_analysis',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_factor_analysis.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._dict_learning',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_dict_learning.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._fastica',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_fastica.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._truncated_svd',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_truncated_svd.py',
-   'PYMODULE'),
-  ('sklearn.utils._arpack',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_arpack.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._sparse_pca',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_sparse_pca.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._kernel_pca',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_kernel_pca.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._incremental_pca',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_incremental_pca.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_base.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._pca',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_pca.py',
-   'PYMODULE'),
-  ('sklearn.decomposition._nmf',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_nmf.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._lof',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_lof.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._kde',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_kde.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._nearest_centroid',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_nearest_centroid.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._regression',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_regression.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._classification',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_classification.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._unsupervised',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_unsupervised.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._graph',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_graph.py',
-   'PYMODULE'),
-  ('sklearn.neighbors._distance_metric',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_distance_metric.py',
-   'PYMODULE'),
-  ('sklearn.cluster._dbscan',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_dbscan.py',
-   'PYMODULE'),
-  ('sklearn.cluster._kmeans',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_kmeans.py',
-   'PYMODULE'),
-  ('sklearn.cluster._agglomerative',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_agglomerative.py',
-   'PYMODULE'),
-  ('scipy.cluster.hierarchy',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\cluster\\hierarchy.py',
-   'PYMODULE'),
-  ('matplotlib.pylab',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\pylab.py',
-   'PYMODULE'),
-  ('scipy._lib._disjoint_set',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_disjoint_set.py',
-   'PYMODULE'),
-  ('scipy.cluster',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\cluster\\__init__.py',
-   'PYMODULE'),
-  ('scipy.cluster.vq',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\cluster\\vq.py',
-   'PYMODULE'),
-  ('sklearn.cluster._feature_agglomeration',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_feature_agglomeration.py',
-   'PYMODULE'),
-  ('sklearn.utils.graph',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\graph.py',
-   'PYMODULE'),
-  ('scipy.sparse.csgraph',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csgraph\\__init__.py',
-   'PYMODULE'),
-  ('scipy.sparse.csgraph._validation',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csgraph\\_validation.py',
-   'PYMODULE'),
-  ('scipy.sparse.csgraph._laplacian',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csgraph\\_laplacian.py',
-   'PYMODULE'),
-  ('sklearn.cluster._affinity_propagation',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_affinity_propagation.py',
-   'PYMODULE'),
-  ('sklearn.cluster._mean_shift',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_mean_shift.py',
-   'PYMODULE'),
-  ('sklearn.cluster._spectral',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_spectral.py',
-   'PYMODULE'),
-  ('sklearn.manifold',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.manifold._t_sne',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_t_sne.py',
-   'PYMODULE'),
-  ('sklearn.manifold._spectral_embedding',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_spectral_embedding.py',
-   'PYMODULE'),
-  ('sklearn.manifold._mds',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_mds.py',
-   'PYMODULE'),
-  ('sklearn.isotonic',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\isotonic.py',
-   'PYMODULE'),
-  ('sklearn.manifold._isomap',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_isomap.py',
-   'PYMODULE'),
-  ('sklearn.externals._packaging.version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_packaging\\version.py',
-   'PYMODULE'),
-  ('sklearn.externals._packaging',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_packaging\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.externals',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\__init__.py',
-   'PYMODULE'),
-  ('sklearn.externals._packaging._structures',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_packaging\\_structures.py',
-   'PYMODULE'),
-  ('sklearn.manifold._locally_linear',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_locally_linear.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing._label',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_label.py',
-   'PYMODULE'),
-  ('sklearn.preprocessing._function_transformer',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_function_transformer.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\fixes.py',
    'PYMODULE'),
   ('joblib',
    'e:\\pycharm '
@@ -4533,6 +4172,10 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\my_exceptions.py',
    'PYMODULE'),
+  ('joblib.disk',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\disk.py',
+   'PYMODULE'),
   ('joblib._multiprocessing_helpers',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\_multiprocessing_helpers.py',
@@ -4557,6 +4200,10 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\numpy_pickle_utils.py',
    'PYMODULE'),
+  ('joblib.logger',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\logger.py',
+   'PYMODULE'),
   ('joblib.memory',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\memory.py',
@@ -4572,6 +4219,386 @@
   ('joblib.hashing',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\joblib\\hashing.py',
+   'PYMODULE'),
+  ('sklearn.externals._lobpcg',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_lobpcg.py',
+   'PYMODULE'),
+  ('sklearn.externals',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._packaging.version',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_packaging\\version.py',
+   'PYMODULE'),
+  ('sklearn.externals._packaging',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_packaging\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.externals._packaging._structures',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_packaging\\_structures.py',
+   'PYMODULE'),
+  ('threadpoolctl',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\threadpoolctl.py',
+   'PYMODULE'),
+  ('sklearn.utils.extmath',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\extmath.py',
+   'PYMODULE'),
+  ('sklearn.exceptions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\exceptions.py',
+   'PYMODULE'),
+  ('sklearn.utils.deprecation',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\deprecation.py',
+   'PYMODULE'),
+  ('sklearn._loss.glm_distribution',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_loss\\glm_distribution.py',
+   'PYMODULE'),
+  ('sklearn._loss',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_loss\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.metrics.pairwise',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\metrics\\pairwise.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process.kernels',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\kernels.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process._gpc',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\_gpc.py',
+   'PYMODULE'),
+  ('sklearn.multiclass',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\multiclass.py',
+   'PYMODULE'),
+  ('sklearn.utils.metaestimators',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\metaestimators.py',
+   'PYMODULE'),
+  ('sklearn.utils.optimize',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\optimize.py',
+   'PYMODULE'),
+  ('sklearn.gaussian_process._gpr',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\gaussian_process\\_gpr.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._data',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_data.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._encoders',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_encoders.py',
+   'PYMODULE'),
+  ('sklearn.utils._encode',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_encode.py',
+   'PYMODULE'),
+  ('sklearn.utils.sparsefuncs',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\sparsefuncs.py',
+   'PYMODULE'),
+  ('sklearn.utils._mask',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_mask.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._polynomial',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_polynomial.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._discretization',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_discretization.py',
+   'PYMODULE'),
+  ('sklearn.cluster',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.cluster._birch',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_birch.py',
+   'PYMODULE'),
+  ('sklearn.cluster._bicluster',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_bicluster.py',
+   'PYMODULE'),
+  ('sklearn.cluster._optics',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_optics.py',
+   'PYMODULE'),
+  ('sklearn.cluster._dbscan',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_dbscan.py',
+   'PYMODULE'),
+  ('sklearn.cluster._kmeans',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_kmeans.py',
+   'PYMODULE'),
+  ('sklearn.cluster._agglomerative',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_agglomerative.py',
+   'PYMODULE'),
+  ('scipy.cluster.hierarchy',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\cluster\\hierarchy.py',
+   'PYMODULE'),
+  ('matplotlib.pylab',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\pylab.py',
+   'PYMODULE'),
+  ('scipy._lib._disjoint_set',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\_lib\\_disjoint_set.py',
+   'PYMODULE'),
+  ('scipy.cluster',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\cluster\\__init__.py',
+   'PYMODULE'),
+  ('scipy.cluster.vq',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\cluster\\vq.py',
+   'PYMODULE'),
+  ('sklearn.cluster._feature_agglomeration',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_feature_agglomeration.py',
+   'PYMODULE'),
+  ('sklearn.utils.graph',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\graph.py',
+   'PYMODULE'),
+  ('sklearn.cluster._affinity_propagation',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_affinity_propagation.py',
+   'PYMODULE'),
+  ('sklearn.cluster._mean_shift',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_mean_shift.py',
+   'PYMODULE'),
+  ('sklearn.cluster._spectral',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\cluster\\_spectral.py',
+   'PYMODULE'),
+  ('sklearn.manifold',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.manifold._t_sne',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_t_sne.py',
+   'PYMODULE'),
+  ('sklearn.decomposition',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._lda',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_lda.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._factor_analysis',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_factor_analysis.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._dict_learning',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_dict_learning.py',
+   'PYMODULE'),
+  ('sklearn.linear_model',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._theil_sen',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_theil_sen.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._ransac',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_ransac.py',
+   'PYMODULE'),
+  ('sklearn.utils.random',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\random.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._quantile',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_quantile.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._perceptron',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_perceptron.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._passive_aggressive',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_passive_aggressive.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._omp',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_omp.py',
+   'PYMODULE'),
+  ('sklearn.model_selection',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._search_successive_halving',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_search_successive_halving.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._search',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_search.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._validation',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_validation.py',
+   'PYMODULE'),
+  ('sklearn.model_selection._split',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\model_selection\\_split.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._logistic',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_logistic.py',
+   'PYMODULE'),
+  ('sklearn.svm._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\_base.py',
+   'PYMODULE'),
+  ('sklearn.svm',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.svm._bounds',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\_bounds.py',
+   'PYMODULE'),
+  ('sklearn.svm._classes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\svm\\_classes.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._sag',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_sag.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._ridge',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_ridge.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._stochastic_gradient',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_stochastic_gradient.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._huber',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_huber.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._glm',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_glm\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._glm.glm',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_glm\\glm.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._glm.link',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_glm\\link.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._coordinate_descent',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_coordinate_descent.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._least_angle',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_least_angle.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._bayes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_bayes.py',
+   'PYMODULE'),
+  ('sklearn.linear_model._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\linear_model\\_base.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._fastica',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_fastica.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._truncated_svd',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_truncated_svd.py',
+   'PYMODULE'),
+  ('sklearn.utils._arpack',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_arpack.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._sparse_pca',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_sparse_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._kernel_pca',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_kernel_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._incremental_pca',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_incremental_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_base.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._pca',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_pca.py',
+   'PYMODULE'),
+  ('sklearn.decomposition._nmf',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\decomposition\\_nmf.py',
+   'PYMODULE'),
+  ('sklearn.manifold._spectral_embedding',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_spectral_embedding.py',
+   'PYMODULE'),
+  ('sklearn.manifold._mds',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_mds.py',
+   'PYMODULE'),
+  ('sklearn.isotonic',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\isotonic.py',
+   'PYMODULE'),
+  ('sklearn.manifold._isomap',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_isomap.py',
+   'PYMODULE'),
+  ('sklearn.manifold._locally_linear',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\manifold\\_locally_linear.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._label',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_label.py',
+   'PYMODULE'),
+  ('sklearn.preprocessing._function_transformer',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\preprocessing\\_function_transformer.py',
    'PYMODULE'),
   ('sklearn.metrics.cluster',
    'e:\\pycharm '
@@ -4601,13 +4628,17 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_pprint.py',
    'PYMODULE'),
+  ('sklearn.utils._estimator_html_repr',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_estimator_html_repr.py',
+   'PYMODULE'),
   ('sklearn.utils._tags',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_tags.py',
    'PYMODULE'),
-  ('sklearn._config',
+  ('sklearn.utils',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_config.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\__init__.py',
    'PYMODULE'),
   ('sklearn.utils._testing',
    'e:\\pycharm '
@@ -5947,49 +5978,6 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\pandas\\compat\\pyarrow.py',
    'PYMODULE'),
-  ('matplotlib',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\__init__.py',
-   'PYMODULE'),
-  ('certifi',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\certifi\\__init__.py',
-   'PYMODULE'),
-  ('certifi.core',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\certifi\\core.py',
-   'PYMODULE'),
-  ('importlib.resources',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\resources.py',
-   'PYMODULE'),
-  ('matplotlib._version',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\matplotlib\\_version.py',
-   'PYMODULE'),
-  ('sklearn.utils.validation',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\validation.py',
-   'PYMODULE'),
-  ('sklearn.utils._estimator_html_repr',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_estimator_html_repr.py',
-   'PYMODULE'),
-  ('sklearn.utils.fixes',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\fixes.py',
-   'PYMODULE'),
-  ('sklearn.externals._lobpcg',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\externals\\_lobpcg.py',
-   'PYMODULE'),
-  ('sklearn.utils.deprecation',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\deprecation.py',
-   'PYMODULE'),
-  ('sklearn.exceptions',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\exceptions.py',
-   'PYMODULE'),
   ('sklearn.utils._joblib',
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_joblib.py',
@@ -5998,89 +5986,16 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\class_weight.py',
    'PYMODULE'),
-  ('sklearn',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\__init__.py',
+  ('timeit',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\timeit.py',
    'PYMODULE'),
-  ('sklearn.utils._show_versions',
+  ('sklearn._config',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_show_versions.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_config.py',
    'PYMODULE'),
-  ('sklearn.__check_build',
+  ('sklearn.utils.validation',
    'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\__check_build\\__init__.py',
-   'PYMODULE'),
-  ('sklearn._distributor_init',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_distributor_init.py',
-   'PYMODULE'),
-  ('scipy.sparse',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\__init__.py',
-   'PYMODULE'),
-  ('scipy.sparse.sputils',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\sputils.py',
-   'PYMODULE'),
-  ('scipy.sparse.sparsetools',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\sparsetools.py',
-   'PYMODULE'),
-  ('scipy.sparse.lil',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\lil.py',
-   'PYMODULE'),
-  ('scipy.sparse.extract',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\extract.py',
-   'PYMODULE'),
-  ('scipy.sparse.dok',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\dok.py',
-   'PYMODULE'),
-  ('scipy.sparse.dia',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\dia.py',
-   'PYMODULE'),
-  ('scipy.sparse.data',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\data.py',
-   'PYMODULE'),
-  ('scipy.sparse.csr',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csr.py',
-   'PYMODULE'),
-  ('scipy.sparse.csc',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\csc.py',
-   'PYMODULE'),
-  ('scipy.sparse.coo',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\coo.py',
-   'PYMODULE'),
-  ('scipy.sparse.construct',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\construct.py',
-   'PYMODULE'),
-  ('scipy.sparse.compressed',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\compressed.py',
-   'PYMODULE'),
-  ('scipy.sparse.bsr',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\bsr.py',
-   'PYMODULE'),
-  ('scipy.sparse.base',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\base.py',
-   'PYMODULE'),
-  ('scipy.sparse._matrix_io',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_matrix_io.py',
-   'PYMODULE'),
-  ('scipy.sparse._extract',
-   'e:\\pycharm '
-   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\scipy\\sparse\\_extract.py',
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\validation.py',
    'PYMODULE'),
   ('numpy',
    'e:\\pycharm '
@@ -6134,17 +6049,102 @@
    'e:\\pycharm '
    '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\numpy\\__config__.py',
    'PYMODULE'),
-  ('timeit',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\timeit.py',
+  ('sklearn.tree._classes',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\tree\\_classes.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+  ('sklearn',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.utils._show_versions',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\utils\\_show_versions.py',
+   'PYMODULE'),
+  ('sklearn.__check_build',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\__check_build\\__init__.py',
+   'PYMODULE'),
+  ('sklearn._distributor_init',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\_distributor_init.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._base',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_base.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._nca',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_nca.py',
+   'PYMODULE'),
+  ('sklearn.discriminant_analysis',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\discriminant_analysis.py',
+   'PYMODULE'),
+  ('sklearn.covariance',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\__init__.py',
+   'PYMODULE'),
+  ('sklearn.covariance._elliptic_envelope',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_elliptic_envelope.py',
+   'PYMODULE'),
+  ('sklearn.covariance._graph_lasso',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_graph_lasso.py',
+   'PYMODULE'),
+  ('sklearn.covariance._robust_covariance',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_robust_covariance.py',
+   'PYMODULE'),
+  ('sklearn.covariance._shrunk_covariance',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_shrunk_covariance.py',
+   'PYMODULE'),
+  ('sklearn.covariance._empirical_covariance',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\covariance\\_empirical_covariance.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._lof',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_lof.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._kde',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_kde.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._nearest_centroid',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_nearest_centroid.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._regression',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_regression.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._classification',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_classification.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._unsupervised',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_unsupervised.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._graph',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_graph.py',
+   'PYMODULE'),
+  ('sklearn.neighbors._distance_metric',
+   'e:\\pycharm '
+   '2021.3.1\\work\\pythonproject\\venv\\lib\\site-packages\\sklearn\\neighbors\\_distance_metric.py',
    'PYMODULE'),
   ('stringprep',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\treeman\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('TrainText',
    'E:\\PyCharm 2021.3.1\\work\\pythonProject\\PYspidertest\\TrainText.py',

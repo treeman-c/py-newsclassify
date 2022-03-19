@@ -167,6 +167,7 @@ imports:
  &#8226;   <a href="#pyi_rth_subprocess.py">pyi_rth_subprocess.py</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#sklearn.neighbors._partition_nodes">sklearn.neighbors._partition_nodes</a>
  &#8226;   <a href="#sklearn.utils._typedefs">sklearn.utils._typedefs</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_constants">sre_constants</a>
@@ -652,7 +653,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>'org.python'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#copy">copy</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#xml.sax">xml.sax</a>
 
@@ -3026,16 +3027,17 @@ imports:
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#jieba">jieba</a>
  &#8226;   <a href="#joblib">joblib</a>
- &#8226;   <a href="#matplotlib">matplotlib</a>
- &#8226;   <a href="#matplotlib.pyplot">matplotlib.pyplot</a>
  &#8226;   <a href="#ntpath">ntpath</a>
- &#8226;   <a href="#numpy">numpy</a>
  &#8226;   <a href="#pandas">pandas</a>
  &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sklearn">sklearn</a>
  &#8226;   <a href="#sklearn.feature_extraction.text">sklearn.feature_extraction.text</a>
  &#8226;   <a href="#sklearn.metrics">sklearn.metrics</a>
  &#8226;   <a href="#sklearn.model_selection">sklearn.model_selection</a>
+ &#8226;   <a href="#sklearn.multiclass">sklearn.multiclass</a>
  &#8226;   <a href="#sklearn.naive_bayes">sklearn.naive_bayes</a>
+ &#8226;   <a href="#sklearn.neighbors">sklearn.neighbors</a>
+ &#8226;   <a href="#sklearn.svm">sklearn.svm</a>
 
   </div>
   <div class="import">
@@ -7750,8 +7752,8 @@ imported by:
   <a target="code" href="///C:/Users/treeman/AppData/Local/Programs/Python/Python39/lib/copy.py" type="text/plain"><tt>copy</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#copyreg">copyreg</a>
- &#8226;   <a href="#org">org</a>
+    <a href="#'org.python'">'org.python'</a>
+ &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#weakref">weakref</a>
 
@@ -16257,7 +16259,7 @@ imports:
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#importlib._common">importlib._common</a>
- &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -16400,6 +16402,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#_distutils_hack">_distutils_hack</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.resources">importlib.resources</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
@@ -16428,7 +16431,6 @@ imported by:
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#imp">imp</a>
- &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#numpy.compat.py3k">numpy.compat.py3k</a>
@@ -19969,8 +19971,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#TrainText">TrainText</a>
- &#8226;   <a href="#matplotlib">matplotlib</a>
+    <a href="#matplotlib">matplotlib</a>
  &#8226;   <a href="#matplotlib._api">matplotlib._api</a>
  &#8226;   <a href="#matplotlib._blocking_input">matplotlib._blocking_input</a>
  &#8226;   <a href="#matplotlib._c_internal_utils">matplotlib._c_internal_utils</a>
@@ -22408,8 +22409,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#TrainText">TrainText</a>
- &#8226;   <a href="#matplotlib">matplotlib</a>
+    <a href="#matplotlib">matplotlib</a>
  &#8226;   <a href="#matplotlib._enums">matplotlib._enums</a>
  &#8226;   <a href="#matplotlib._layoutgrid">matplotlib._layoutgrid</a>
  &#8226;   <a href="#matplotlib.backend_bases">matplotlib.backend_bases</a>
@@ -24642,7 +24642,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#TrainText">TrainText</a>
  &#8226;   <a href="#joblib._memmapping_reducer">joblib._memmapping_reducer</a>
  &#8226;   <a href="#joblib.backports">joblib.backports</a>
  &#8226;   <a href="#joblib.hashing">joblib.hashing</a>
@@ -31577,7 +31576,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>org</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#copy">copy</a>
+    <a href="#pickle">pickle</a>
 
   </div>
 
@@ -43542,8 +43541,7 @@ imported by:
   <a target="code" href="///C:/Users/treeman/AppData/Local/Programs/Python/Python39/lib/pickle.py" type="text/plain"><tt>pickle</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'org.python'">'org.python'</a>
- &#8226;   <a href="#_compat_pickle">_compat_pickle</a>
+    <a href="#_compat_pickle">_compat_pickle</a>
  &#8226;   <a href="#_pickle">_pickle</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#copyreg">copyreg</a>
@@ -43551,6 +43549,7 @@ imports:
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#struct">struct</a>
@@ -58071,7 +58070,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#sklearn">sklearn</a>
+    <a href="#TrainText">TrainText</a>
+ &#8226;   <a href="#sklearn">sklearn</a>
  &#8226;   <a href="#sklearn.__check_build">sklearn.__check_build</a>
  &#8226;   <a href="#sklearn._config">sklearn._config</a>
  &#8226;   <a href="#sklearn._distributor_init">sklearn._distributor_init</a>
@@ -61245,7 +61245,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#sklearn.gaussian_process._gpc">sklearn.gaussian_process._gpc</a>
+    <a href="#TrainText">TrainText</a>
+ &#8226;   <a href="#sklearn.gaussian_process._gpc">sklearn.gaussian_process._gpc</a>
 
   </div>
 
@@ -61301,7 +61302,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#sklearn.cluster._dbscan">sklearn.cluster._dbscan</a>
+    <a href="#TrainText">TrainText</a>
+ &#8226;   <a href="#sklearn.cluster._dbscan">sklearn.cluster._dbscan</a>
  &#8226;   <a href="#sklearn.cluster._mean_shift">sklearn.cluster._mean_shift</a>
  &#8226;   <a href="#sklearn.cluster._optics">sklearn.cluster._optics</a>
  &#8226;   <a href="#sklearn.cluster._spectral">sklearn.cluster._spectral</a>
@@ -61319,6 +61321,7 @@ imported by:
  &#8226;   <a href="#sklearn.neighbors._lof">sklearn.neighbors._lof</a>
  &#8226;   <a href="#sklearn.neighbors._nca">sklearn.neighbors._nca</a>
  &#8226;   <a href="#sklearn.neighbors._nearest_centroid">sklearn.neighbors._nearest_centroid</a>
+ &#8226;   <a href="#sklearn.neighbors._partition_nodes">sklearn.neighbors._partition_nodes</a>
  &#8226;   <a href="#sklearn.neighbors._quad_tree">sklearn.neighbors._quad_tree</a>
  &#8226;   <a href="#sklearn.neighbors._regression">sklearn.neighbors._regression</a>
  &#8226;   <a href="#sklearn.neighbors._unsupervised">sklearn.neighbors._unsupervised</a>
@@ -61563,6 +61566,21 @@ imports:
   <div class="import">
 imported by:
     <a href="#sklearn.neighbors">sklearn.neighbors</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="sklearn.neighbors._partition_nodes"></a>
+  <tt>sklearn.neighbors._partition_nodes</tt> <span class="moduletype"><tt>e:\pycharm 2021.3.1\work\pythonproject\venv\lib\site-packages\sklearn\neighbors\_partition_nodes.cp39-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#sklearn.neighbors">sklearn.neighbors</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#newsclassify.py">newsclassify.py</a>
 
   </div>
 
@@ -61865,7 +61883,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#sklearn.svm">sklearn.svm</a>
+    <a href="#TrainText">TrainText</a>
+ &#8226;   <a href="#sklearn.svm">sklearn.svm</a>
  &#8226;   <a href="#sklearn.svm._base">sklearn.svm._base</a>
  &#8226;   <a href="#sklearn.svm._bounds">sklearn.svm._bounds</a>
  &#8226;   <a href="#sklearn.svm._classes">sklearn.svm._classes</a>
